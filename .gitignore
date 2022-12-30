@@ -4,7 +4,8 @@
 /modules/
 /assets/audio/
 
-/static/
+/static/*
+!/static/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
