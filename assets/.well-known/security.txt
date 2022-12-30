@@ -1,0 +1,7 @@
+Acknowledgments: https://intraneto.com/contributors
+Canonical: https://intraneto.com/.well-known/security.txt
+Contact: mailto:security@intraneto.com
+Expires: Sat, 31 Dec 2024 23:59 +0000
+Encryption: https://intraneto.com/files/intraneto-ecdsa.asc
+Preferred-Languages: en, es, zh
+Policy: https://intraneto.com/security

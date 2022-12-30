@@ -1,0 +1,15 @@
+player1dev
+
+accelerator
+torch
+transformers
+torchtext
+torchvision
+tensorflow-macos
+tensorflow-metal
+
+# seleniumbase
+# speechrecognition
+# pyaudio
+# brew install portaudio
+# python3 -m pip install git+https://github.com/openai/whisper.git
