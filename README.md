@@ -4,13 +4,27 @@
 
 Intraneto is a platform that aims to solve this problem by providing a new way to access scientific knowledge. Information overload is a major obstacle to scientific progress. The explosive growth in scientific literature and data has made it ever harder to discover useful insights in a large mass of information. Today scientific knowledge is accessed through search engines, but they are unable to organize scientific knowledge alone.
 
+### Features
+
+- **Search Engines** - Search for scientific papers, datasets, and more. There are +3000 search engines with integrated search results.
+- **Summarisation** - Get a summary of any document, image, audio, or video, on any language.
+- **Translatation** - Translate any document, image, audio, or video in a wide range of +100 languages of varying quality.
+- **Read Voice** - Read any document, image, audio, or video in a wide range of +100 languages of varying quality.
+- **Listen Voice** - Listen to your commands and speech in a wide range of +100 languages of varying quality. It also supports output translation in one step (no computational overhead) when listening to your speech.
+- **Configurable** - Configure the app to your liking. You can change the theme, language, and more. You can also add your own search engines and configure them to your liking. Heck, everything is made in a way that we are a thin layer between many technologies.Beginners and experts are both welcome to use the app. We have made it easy to use for beginners and exciting for experts.
+- **Extensible**
+- **Modular**
+- **Train AI on your devices**
+- **Download pre-trained models**
+- **Cloud AI compatible**
+
 ## Attributions
 
-This project has influence from many sources. You can find a quasi-complete list of attributions in the file [`ATTRIBUTIONS.md`.](https://github.com/Intraneto/app/blob/master/ATTRIBUTIONS.md)
+This project has influence from many sources. You can find a quasi-complete list of attributions in the file [`ATTRIBUTIONS.md`.](https://github.com/Intraneto/app/blob/main/ATTRIBUTIONS.md)
 
 ## Contributions
 
-Please read [`CONTRIBUTIONS.md`](https://github.com/Intraneto/app/blob/master/CONTRIBUTIONS.md) before submitting a pull request. For security reports, please follow our [responsible disclosure policy.](https://intraneto.com/security)
+Please read [`CONTRIBUTIONS.md`](https://github.com/Intraneto/app/blob/main/CONTRIBUTIONS.md) before submitting a pull request. For security reports, please follow our [responsible disclosure policy.](https://intraneto.com/security)
 
 ## Documentation
 
