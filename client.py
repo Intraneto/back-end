@@ -1,16 +1,15 @@
-import importlib
-import logging
-import os
+import flet
+from flet import Page
+from player1dev.client import InMemoryStore, Player1Client
 
-import flet as ft
-from player1dev.client import main as player1dev_main
+if __name__ == "__main__":
 
-navbar = ft.NavigationBar()
-sidebar = ft.NavigationRail()
+    def main(page: Page):
+        app = Player1Client(page, InMemoryStore())
+        page.title = "Intraneto.com"
+        app.appbar.title = flet.Text("Intraneto.com")
+        page.add(app)
+        page.update()
+        app.initialize()
 
-
-ft.app(
-    target=player1dev_main,
-    view=ft.WEB_BROWSER,
-    route_url_strategy="path",
-)
+    flet.app(target=main, assets_dir="../assets", route_url_strategy="path")

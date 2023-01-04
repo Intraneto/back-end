@@ -1,0 +1,22 @@
+:root {
+  --background-body: #14b8a6;
+  --background: #14b8a6;
+  --background-alt: #0c726c;
+  --selection: #a6f7d8;
+  --text-main: #ffffff;
+  --text-bright: #ffffff;
+  --text-muted: #a6f7d8;
+  --links: #ffffff;
+  --focus: #a6f7d8;
+  --border: #a6f7d8;
+  --code: #a6f7d8;
+  --animation-duration: 0.1s;
+  --button-hover: #0c726c;
+  --scrollbar-thumb: #a6f7d8;
+  --scrollbar-thumb-hover: #0c726c;
+  --form-placeholder: #a6f7d8;
+  --form-text: #ffffff;
+  --variable: #a6f7d8;
+  --highlight: #a6f7d8;
+  --select-arrow: #ffffff;
+}

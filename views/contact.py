@@ -1,51 +1,30 @@
-# Contact form view
-
-# Path: websites/intraneto.com/app/views/contact.py
-
-# Compare this snippet from websites/intraneto.com/app/views/auth.py:
-
-import flet as ft
-from components import navbar
+import flet
 
 
-def main(page: ft.Page):
-    return ft.View(
-        "/",
+def main(page: flet.Page):
+    return flet.Column(
         [
-            navbar.main(page),
-            ft.Column(
-                [
-                    ft.Text("Username"),
-                    ft.TextField(
-                        autofocus=True,
-                        hint_text="your username",
-                    ),
-                    ft.Text("Message"),
-                    ft.TextField(
-                        hint_text="your message",
-                        multiline=True,
-                        min_lines=10,
-                        max_lines=10,
-                    ),
-                    ft.FilledButton(
-                        "Send",
-                        on_click=lambda e: page.go("/"),
-                    ),
-                    # go back
-                    ft.TextButton(
-                        "Back",
-                        on_click=lambda _: page.go("/"),
-                    ),
-                ],
-                expand=1,
-                width=300,
-                alignment="center",
+            flet.Text("Username"),
+            flet.TextField(
+                autofocus=True,
+                hint_text="your username",
+            ),
+            flet.Text("Message"),
+            flet.TextField(
+                hint_text="your message",
+                multiline=True,
+                min_lines=10,
+                max_lines=10,
+            ),
+            flet.FilledButton(
+                "Send",
+                on_click=lambda e: page.go("/"),
+            ),
+            # go back
+            flet.TextButton(
+                "Back",
+                on_click=lambda _: page.go("/"),
             ),
         ],
-        horizontal_alignment="center",
+        expand=1,
     )
-
-
-# Contact form view
-
-# Path: websites/intraneto.com/app/views/contact.py
