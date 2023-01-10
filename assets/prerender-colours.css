@@ -1,23 +1,26 @@
 :root {
-  --background-body: #220000;
-  --text-bright: #ff0000;
+  /* Red (Intraneto) */
+  --foreground-rgb: 255, 127.5, 127.5;
+  --background-body: #200;
 
-  --background: rgba(var(--text-bright), 0.2);
-  --background-alt: rgba(var(--text-bright), 0.4);
-  --selection: rgba(var(--text-bright), 0.6);
-  --text-main: rgba(var(--text-bright), 0.8);
-  --text-muted: rgba(var(--text-bright), 0.6);
-  --links: rgba(var(--text-bright), 1);
-  --focus: rgba(var(--text-bright), 0.8);
-  --border: rgba(var(--text-bright), 0.8);
-  --code: rgba(var(--text-bright), 0.8);
+  /* Elements */
+  --background: rgba(var(--foreground-rgb), 0.2);
+  --background-alt: rgba(var(--foreground-rgb), 0.1);
+  --selection: rgba(var(--foreground-rgb), 0.2);
+  --text-main: rgba(var(--foreground-rgb), 0.95);
+  --text-bright: rgba(var(--foreground-rgb), 1);
+  --text-muted: rgba(var(--foreground-rgb), 0.75);
+  --links: rgba(var(--foreground-rgb), 1);
+  --focus: rgba(var(--foreground-rgb), 0.75);
+  --border: rgba(var(--foreground-rgb), 0.75);
+  --code: rgba(var(--foreground-rgb), 0.75);
   --animation-duration: 0.1s;
-  --button-hover: rgba(var(--text-bright), 0.6);
-  --scrollbar-thumb: rgba(var(--text-bright), 0.8);
-  --scrollbar-thumb-hover: rgba(var(--text-bright), 0.6);
-  --form-placeholder: rgba(var(--text-bright), 0.8);
-  --form-text: rgba(var(--text-bright), 0.8);
-  --variable: rgba(var(--text-bright), 0.8);
-  --highlight: rgba(var(--text-bright), 0.8);
-  --select-arrow: rgba(var(--text-bright), 1);
+  --button-hover: rgba(var(--foreground-rgb), 0.75);
+  --scrollbar-thumb: rgba(var(--foreground-rgb), 0.75);
+  --scrollbar-thumb-hover: rgba(var(--foreground-rgb), 0.75);
+  --form-placeholder: rgba(var(--foreground-rgb), 0.75);
+  --form-text: rgba(var(--foreground-rgb), 0.75);
+  --variable: rgba(var(--foreground-rgb), 0.75);
+  --highlight: rgba(var(--foreground-rgb), 0.75);
+  --select-arrow: rgba(var(--foreground-rgb), 0.1);
 }
