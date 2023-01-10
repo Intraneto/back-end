@@ -1,22 +1,23 @@
 :root {
-  --background-body: #14b8a6;
-  --background: #14b8a6;
-  --background-alt: #0c726c;
-  --selection: #a6f7d8;
-  --text-main: #ffffff;
-  --text-bright: #ffffff;
-  --text-muted: #a6f7d8;
-  --links: #ffffff;
-  --focus: #a6f7d8;
-  --border: #a6f7d8;
-  --code: #a6f7d8;
+  --background-body: #220000;
+  --text-bright: #ff0000;
+
+  --background: rgba(var(--text-bright), 0.2);
+  --background-alt: rgba(var(--text-bright), 0.4);
+  --selection: rgba(var(--text-bright), 0.6);
+  --text-main: rgba(var(--text-bright), 0.8);
+  --text-muted: rgba(var(--text-bright), 0.6);
+  --links: rgba(var(--text-bright), 1);
+  --focus: rgba(var(--text-bright), 0.8);
+  --border: rgba(var(--text-bright), 0.8);
+  --code: rgba(var(--text-bright), 0.8);
   --animation-duration: 0.1s;
-  --button-hover: #0c726c;
-  --scrollbar-thumb: #a6f7d8;
-  --scrollbar-thumb-hover: #0c726c;
-  --form-placeholder: #a6f7d8;
-  --form-text: #ffffff;
-  --variable: #a6f7d8;
-  --highlight: #a6f7d8;
-  --select-arrow: #ffffff;
+  --button-hover: rgba(var(--text-bright), 0.6);
+  --scrollbar-thumb: rgba(var(--text-bright), 0.8);
+  --scrollbar-thumb-hover: rgba(var(--text-bright), 0.6);
+  --form-placeholder: rgba(var(--text-bright), 0.8);
+  --form-text: rgba(var(--text-bright), 0.8);
+  --variable: rgba(var(--text-bright), 0.8);
+  --highlight: rgba(var(--text-bright), 0.8);
+  --select-arrow: rgba(var(--text-bright), 1);
 }
